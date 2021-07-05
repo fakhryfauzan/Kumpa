@@ -1,0 +1,15 @@
+Hi Kumparan iOS Team
+
+Nama Fakhry Fauzan, Full Time iOS
+
+Di project ini saya menggunakan Protocol Oriented Programming dengan bantuan SOLID dan MVVM untuk code lebih clean dan mudah untuk di-Maintenance..
+
+Saya juga menyediakan Test Case, Dapat di-run dan dicek keberhasilan-nya
+
+Tanpa POD atau third party terinstall..
+
+Jika ada pertanyaan dapat hubungi saya di 085701807946 / fakhrysip@gmail.com
+
+
+Best Regards
+Fakhry
