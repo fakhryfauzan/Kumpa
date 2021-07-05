@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AlbumDetailViewController: UIViewController {
+final class AlbumDetailViewController: UIViewController {
 
     @IBOutlet weak var albumTitleLabel: UILabel!
     @IBOutlet weak var photoTableView: UITableView!

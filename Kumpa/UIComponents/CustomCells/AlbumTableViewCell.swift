@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AlbumTableViewCell: UITableViewCell, CellConfigure {
+final class AlbumTableViewCell: UITableViewCell, CellConfigure {
     static var reuseIdentifier = "AlbumTableViewCell"
     @IBOutlet weak var albumTitleLabel: UILabel!
     

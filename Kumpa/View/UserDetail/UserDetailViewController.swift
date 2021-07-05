@@ -7,7 +7,7 @@
 
 import UIKit
 
-class UserDetailViewController: UIViewController {
+final class UserDetailViewController: UIViewController {
     
     var userDetailViewModel = UserDetailViewModel()
     

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DetailPostViewController: UIViewController {
+final class DetailPostViewController: UIViewController {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var postedByLabel: UILabel!

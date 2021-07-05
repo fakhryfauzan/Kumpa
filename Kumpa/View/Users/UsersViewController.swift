@@ -7,7 +7,8 @@
 
 import Foundation
 import UIKit
-class UsersViewController: UIViewController, ResponseForViewDelegate {
+
+final class UsersViewController: UIViewController, ResponseForViewDelegate {
     func getResponse(response: Any?) {
         DispatchQueue.main.async {
             self.userTableView.reloadData()

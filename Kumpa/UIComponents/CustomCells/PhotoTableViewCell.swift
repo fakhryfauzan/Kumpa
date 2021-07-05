@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PhotoTableViewCell: UITableViewCell, CellConfigure {
+final class PhotoTableViewCell: UITableViewCell, CellConfigure {
     static var reuseIdentifier = "PhotoTableViewCell"
     
     @IBOutlet weak var photoImage: UIImageView!

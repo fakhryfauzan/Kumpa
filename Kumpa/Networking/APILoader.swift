@@ -2,7 +2,7 @@
 
 import Foundation
 
-class APILoader<T: APIHandler> {
+final class APILoader<T: APIHandler> {
     let apiHandler: T
     let urlSession: URLSession
     

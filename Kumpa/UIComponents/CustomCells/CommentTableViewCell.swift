@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CommentTableViewCell: UITableViewCell, CellConfigure {
+final class CommentTableViewCell: UITableViewCell, CellConfigure {
     static var reuseIdentifier = "CommentTableViewCell"
     
     @IBOutlet weak var postedByLabel: UILabel!

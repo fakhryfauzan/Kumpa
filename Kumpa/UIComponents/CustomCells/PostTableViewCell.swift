@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PostTableViewCell: UITableViewCell, CellConfigure {
+final class PostTableViewCell: UITableViewCell, CellConfigure {
     static func nib() -> UINib {
         return UINib(nibName: "PostTableViewCell", bundle: nil)
     }

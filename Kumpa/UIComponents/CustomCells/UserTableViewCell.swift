@@ -7,7 +7,7 @@
 
 import UIKit
 
-class UserTableViewCell: UITableViewCell, CellConfigure {
+final class UserTableViewCell: UITableViewCell, CellConfigure {
     static var reuseIdentifier = "UserTableViewCell"
     
     @IBOutlet weak var userNameLabel: UILabel!

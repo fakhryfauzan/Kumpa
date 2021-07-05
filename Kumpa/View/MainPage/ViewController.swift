@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, ResponseForViewDelegate {
+final class ViewController: UIViewController, ResponseForViewDelegate {
     func getResponse(response: Any?) {
         DispatchQueue.main.async {
             self.postTableView.reloadData()
