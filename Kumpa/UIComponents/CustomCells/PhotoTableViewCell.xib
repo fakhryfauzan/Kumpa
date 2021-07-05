@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="220" id="KGk-i7-Jjw" customClass="PhotoTableViewCell" customModule="Kumpa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="220"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="327" height="220"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3pw-ae-2HP">
+                        <rect key="frame" x="10" y="10" width="307" height="153.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="3pw-ae-2HP" secondAttribute="height" multiplier="2:1" id="9EP-Wg-aiG"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zec-py-Ngo">
+                        <rect key="frame" x="10" y="173.5" width="307" height="36.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zec-py-Ngo" firstAttribute="top" secondItem="3pw-ae-2HP" secondAttribute="bottom" constant="10" id="DwZ-cQ-Pus"/>
+                    <constraint firstItem="3pw-ae-2HP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="IHu-UW-rTX"/>
+                    <constraint firstItem="zec-py-Ngo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="PDm-vq-BUb"/>
+                    <constraint firstAttribute="trailing" secondItem="3pw-ae-2HP" secondAttribute="trailing" constant="10" id="Rwn-8m-ce2"/>
+                    <constraint firstItem="3pw-ae-2HP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ZcY-5U-qOQ"/>
+                    <constraint firstAttribute="bottom" secondItem="zec-py-Ngo" secondAttribute="bottom" constant="10" id="ab8-z0-Sc0"/>
+                    <constraint firstAttribute="trailing" secondItem="zec-py-Ngo" secondAttribute="trailing" constant="10" id="fZX-bY-Dfn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="photoImage" destination="3pw-ae-2HP" id="XwR-2G-3eB"/>
+                <outlet property="titleLabel" destination="zec-py-Ngo" id="p7T-SH-eN8"/>
+            </connections>
+            <point key="canvasLocation" x="22.463768115942031" y="103.125"/>
+        </tableViewCell>
+    </objects>
+</document>
